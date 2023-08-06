@@ -6,49 +6,64 @@ Welcome to HackRF's documentation!
    :maxdepth: 2
    :caption: User Documentation
 
-   getting_started_hackrf_gnuradio
-   hackrf_sweep   
-   operating_system_tips   
-   hackrf_one
-   opera_cake
-   updating_firmware   
-   faq   
-   hackrf_hacks
    getting_help
-   tips_tricks
+   faq
+   hackrf_projects_mentions
 
 .. toctree::
    :maxdepth: 2
-   :caption: Firmware Developer Notes
+   :caption: HackRF One Hardware
 
+   hackrf_one 
+   hackrf_minimum_requirements
+   list_of_hardware_revisions
+   hardware_components 
+   leds 
+   hackrfs_buttons
+   hackrf_connectors
+   external_clock_interface
+   expansion_interface
+   hardware_triggering
+   enclosure_options    
+   usb_cables
+   rf_shield_installation   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Jawbreaker Hardware
+
+   jawbreaker 
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Firmware
+
+   updating_firmware
    firmware_development_setup
    LPC43XX_Debugging
    LPC43XX_SGPIO_Configuration
-   LPC43xx_USB_DFU_Notes
-   LPC43xx_USB_Implementation   
 
 .. toctree::
    :maxdepth: 2
-   :caption: Hardware Developer Notes
+   :caption: Software
 
-   hardware_components   
-   clocking
-   multiple_device_hardware_synch
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Software Developer Notes
-
+   installing_hackrf_software
+   hackrf_tools
    software_support
-   libhackrf_api   
+   sampling_rate
+   setting_gain
+   virtual_machines
 
 .. toctree::
    :maxdepth: 2
-   :caption: Old Content
+   :caption: Opera Cake Documentation
 
-   jawbreaker
-   design_goals
-   future_hardware_modifications
-   lemondrop_bringup
-   LPC4350
+   opera_cake
+   opera_cake_faq
+   opera_cake_hardware
+   opera_cake_board_addressing
+   opera_cake_port_configuration
+   opera_cake_modes_of_operation
 
+ 
